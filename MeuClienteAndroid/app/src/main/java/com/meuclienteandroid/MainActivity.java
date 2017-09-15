@@ -29,8 +29,10 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final static String IP = "";
-    private final static String PORT = "";
+    //Informe aqui o IP do servidor
+    private final static String IP = "192.168.0.101";
+    //Informe aqui a porta di servidor
+    private final static String PORT = "8084";
 
     private static final String SERVICE_URL = "http://" + IP + ":" + PORT + "/MeuWebServer/webresources/controller";
     @Override
